@@ -1,41 +1,33 @@
-Solar Farm Analysis in India
+# Solar Farm Analysis in India
 
-Description
-
+## Description
 This repository provides a comprehensive analysis of solar farms in India, focusing on the relationship between solar irradiance, population density, and land usage. It includes data visualizations, geographic mappings, and insights derived from multiple datasets and Python-based notebooks.
 
-Features
+## Features
+- **Jupyter Notebooks**: Step-by-step analysis of solar irradiance, population data, and solar farm statistics.
+- **Data Visualizations**: Bar graphs and maps visualizing key metrics such as state-wise solar farm distribution and urban-rural splits.
+- **Geospatial Data**: Utilizes shapefiles and geographic data for mapping solar farm locations.
+- **Datasets**: Includes curated datasets for population, solar irradiance, and land use.
 
-Jupyter Notebooks: Step-by-step analysis of solar irradiance, population data, and solar farm statistics.
+## File Structure
+        ├── notebooks/
+        │   ├── Solar_Irradiance.ipynb
+        │   ├── Solar_Farm_Data.ipynb
+        │   ├── Population_and_Solar.ipynb
+        │   ├── Solar_vs_Population_Visualizations.ipynb
+        ├── data/
+        │   ├── solar_farms_india_2021.csv
+        │   ├── population/Population_of_India.csv
+        │   ├── shapefiles/India_Shape/
+        │   └── solar_irradiance_own_dataset.csv
+        ├── visualizations/
+        │   ├── Bar Graphs/
+        │   └── Maps/
+        └── README.md
 
-Data Visualizations: Bar graphs and maps visualizing key metrics such as state-wise solar farm distribution and urban-rural splits.
+## Setup Instructions
 
-Geospatial Data: Utilizes shapefiles and geographic data for mapping solar farm locations.
-
-Datasets: Includes curated datasets for population, solar irradiance, and land use.
-
-File Structure
-
-├── notebooks/
-│   ├── Solar_Irradiance.ipynb
-│   ├── Solar_Farm_Data.ipynb
-│   ├── Population_and_Solar.ipynb
-│   ├── Solar_vs_Population_Visualizations.ipynb
-├── data/
-│   ├── solar_farms_india_2021.csv
-│   ├── population/Population_of_India.csv
-│   ├── shapefiles/India_Shape/
-│   └── solar_irradiance_own_dataset.csv
-├── visualizations/
-│   ├── Bar Graphs/
-│   └── Maps/
-└── README.md
-
-Setup Instructions
-
-Clone this repository:
-
-git clone https://github.com/Nikhilpy6/solar-farm-analysis.git
+## Clone this repository: git clone https://github.com/Nikhilpy6/solar-farm-analysis.git
 
 Install required Python packages:
 
@@ -45,7 +37,7 @@ Run Jupyter Notebooks:
 
 jupyter notebook
 
-Datasets
+## Datasets
 
 Solar Irradiance: Data on solar exposure in India.
 
@@ -61,6 +53,5 @@ License
 
 This project is licensed under the MIT License. See the LICENSE file for more details.
 
-Contact
-
+##Contact
 For queries, contact [nikhilguptamn@gmail.com].
