@@ -35,7 +35,7 @@ Setup Instructions
 
 Clone this repository:
 
-git clone https://github.com/your-username/solar-farm-analysis.git
+git clone https://github.com/Nikhilpy6/solar-farm-analysis.git
 
 Install required Python packages:
 
